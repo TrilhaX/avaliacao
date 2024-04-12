@@ -2,3 +2,43 @@
     padding: 0;
     margin: 0;
 }
+
+header {
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-size: 30px;
+}
+
+section {
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section ul {
+    color: black;
+    font-size: 20px;
+    padding: 120px 500px 0 0;
+    list-style: none;
+}
+
+section h1 {
+    padding: 0 0 20px 0;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
+    align-items: left;
+    padding: 30px 0 0 200px;
+}
